@@ -3,7 +3,7 @@
 	- REACT UI => http://localhost:3000
 
 ## Uygulamayý Baþlatma
-	- 'docker-compose up'
+	- docker-compose up
 
 Komutunu ana dizin içerisinde çalýþtýrmanýz halinde API, MSSQL ve REACTJS projesi docker uzerinde çalýþýr hale gelecektir.
 
