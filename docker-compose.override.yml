@@ -1,0 +1,29 @@
+version: "3.8"
+services:
+  moviedb:
+    container_name: moviedb
+    restart: always
+    ports:
+      - "1433:1433"
+    volumes:
+      - moviedb_volume:/var/opt/mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password12*
+  movieapp.api:
+    container_name: movieapp.api
+    restart: on-failure
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:Default=Server=moviedb,1433;Database=MovieDB; User=sa; Password=Password12*"
+    ports:
+      - "5001:80"
+    depends_on:
+      - moviedb
+  movieapp.webui:
+    container_name: movieapp.webui
+    restart: on-failure
+    ports:
+      - 3000:3000
+    depends_on:
+      - movieapp.api

@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  moviedb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+  movieapp.api:
+    image: movieapp_api_image
+    build:
+      context: .
+      dockerfile: MovieApp.Api/Dockerfile
+  movieapp.webui:
+    image: movieapp_webui_image
+    working_dir: /movieapp.webui/
+    build:
+      context: .
+      dockerfile: movieapp.webui/Dockerfile
+    volumes:
+      - ./movieapp.webui:/movieapp.webui
+    environment: 
+      - CHOKIDAR_USEPOLLING=true
+
+volumes:
+  moviedb_volume:

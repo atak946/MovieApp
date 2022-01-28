@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.Api", "MovieApp.Api\MovieApp.Api.csproj", "{6B09FBAD-2625-482B-A866-CDE98A5F981E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.Domain", "MovieApp.Domain\MovieApp.Domain.csproj", "{206BF429-A4CB-4BD8-8AB9-7F78EA03ADED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.Infrastructure", "MovieApp.Infrastructure\MovieApp.Infrastructure.csproj", "{CCA47BD7-8D9F-4B00-9661-765035BD7E7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.Application", "MovieApp.Application\MovieApp.Application.csproj", "{25D31A42-6F6C-4950-AAEE-0B42D08CE152}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.Infrastructure.IoC", "MovieApp.Infrastructure.IoC\MovieApp.Infrastructure.IoC.csproj", "{782B52BF-7D56-4261-9ABB-99D2E7794931}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0DCD996A-D348-4912-AAAF-A8CFD0B5E152}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DFCC4184-DD3E-4907-8E94-6E77E60315CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieApp.UnitTest", "MovieApp.UnitTest\MovieApp.UnitTest.csproj", "{7138DDDB-130E-4C05-861E-483C3CEC8C82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA255774-23BE-4ACC-A5EE-EDF84306EF5C}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "movieapp.webui", "movieapp.webui\", "{2A32741D-7CB3-4FAE-BB3A-C8081C1EEEB4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63852"
+		Debug.AspNetCompiler.PhysicalPath = "movieapp.webui\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63852\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63852"
+		Release.AspNetCompiler.PhysicalPath = "movieapp.webui\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63852\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63852"
+		SlnRelativePath = "movieapp.webui\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B09FBAD-2625-482B-A866-CDE98A5F981E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B09FBAD-2625-482B-A866-CDE98A5F981E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B09FBAD-2625-482B-A866-CDE98A5F981E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B09FBAD-2625-482B-A866-CDE98A5F981E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206BF429-A4CB-4BD8-8AB9-7F78EA03ADED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206BF429-A4CB-4BD8-8AB9-7F78EA03ADED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206BF429-A4CB-4BD8-8AB9-7F78EA03ADED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206BF429-A4CB-4BD8-8AB9-7F78EA03ADED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA47BD7-8D9F-4B00-9661-765035BD7E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA47BD7-8D9F-4B00-9661-765035BD7E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA47BD7-8D9F-4B00-9661-765035BD7E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA47BD7-8D9F-4B00-9661-765035BD7E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D31A42-6F6C-4950-AAEE-0B42D08CE152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D31A42-6F6C-4950-AAEE-0B42D08CE152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D31A42-6F6C-4950-AAEE-0B42D08CE152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D31A42-6F6C-4950-AAEE-0B42D08CE152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782B52BF-7D56-4261-9ABB-99D2E7794931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782B52BF-7D56-4261-9ABB-99D2E7794931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782B52BF-7D56-4261-9ABB-99D2E7794931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782B52BF-7D56-4261-9ABB-99D2E7794931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7138DDDB-130E-4C05-861E-483C3CEC8C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7138DDDB-130E-4C05-861E-483C3CEC8C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7138DDDB-130E-4C05-861E-483C3CEC8C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7138DDDB-130E-4C05-861E-483C3CEC8C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A32741D-7CB3-4FAE-BB3A-C8081C1EEEB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A32741D-7CB3-4FAE-BB3A-C8081C1EEEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A32741D-7CB3-4FAE-BB3A-C8081C1EEEB4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A32741D-7CB3-4FAE-BB3A-C8081C1EEEB4}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B09FBAD-2625-482B-A866-CDE98A5F981E} = {DFCC4184-DD3E-4907-8E94-6E77E60315CB}
+		{206BF429-A4CB-4BD8-8AB9-7F78EA03ADED} = {DFCC4184-DD3E-4907-8E94-6E77E60315CB}
+		{CCA47BD7-8D9F-4B00-9661-765035BD7E7A} = {DFCC4184-DD3E-4907-8E94-6E77E60315CB}
+		{25D31A42-6F6C-4950-AAEE-0B42D08CE152} = {DFCC4184-DD3E-4907-8E94-6E77E60315CB}
+		{782B52BF-7D56-4261-9ABB-99D2E7794931} = {DFCC4184-DD3E-4907-8E94-6E77E60315CB}
+		{7138DDDB-130E-4C05-861E-483C3CEC8C82} = {0DCD996A-D348-4912-AAAF-A8CFD0B5E152}
+		{2A32741D-7CB3-4FAE-BB3A-C8081C1EEEB4} = {DFCC4184-DD3E-4907-8E94-6E77E60315CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F3DEFBF-313E-469F-B204-FC0CE0221BA0}
+	EndGlobalSection
+EndGlobal

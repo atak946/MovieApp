@@ -1,0 +1,15 @@
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\obj\Debug\net5.0\MovieApp.Application.csproj.AssemblyReference.cache
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\obj\Debug\net5.0\MovieApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\obj\Debug\net5.0\MovieApp.Application.AssemblyInfoInputs.cache
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\obj\Debug\net5.0\MovieApp.Application.AssemblyInfo.cs
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\obj\Debug\net5.0\MovieApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\bin\Debug\net5.0\MovieApp.Application.deps.json
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\bin\Debug\net5.0\MovieApp.Application.dll
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\bin\Debug\net5.0\ref\MovieApp.Application.dll
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\bin\Debug\net5.0\MovieApp.Application.pdb
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\bin\Debug\net5.0\MovieApp.Domain.dll
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\bin\Debug\net5.0\MovieApp.Domain.pdb
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\obj\Debug\net5.0\MovieApp.Application.csproj.CopyComplete
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\obj\Debug\net5.0\MovieApp.Application.dll
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\obj\Debug\net5.0\ref\MovieApp.Application.dll
+C:\Users\murat\source\repos\MovieApp\MovieApp.Application\obj\Debug\net5.0\MovieApp.Application.pdb
