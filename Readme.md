@@ -4,7 +4,8 @@
 
 ## Uygulamayý Baþlatma
 	- 'docker-compose up'
-	- Komutunu ana dizin içerisinde çalýþtýrmanýz halinde API, MSSQL ve REACTJS projesi docker uzerinde çalýþýr hale gelecektir.
+
+Komutunu ana dizin içerisinde çalýþtýrmanýz halinde API, MSSQL ve REACTJS projesi docker uzerinde çalýþýr hale gelecektir.
 
 ## Çözümünün bir parçasý olarak kullandýðýn teknik ve mimari seçimine nasýl karar verdin?
 
