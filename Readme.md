@@ -1,11 +1,10 @@
-## NOT: Bu projeyi 3 farklý proje ile birlike eþ zamanlý olarak geliþtirdiðim için tüm zamanýmý bu projeye ayýramadým. Deðerlendirmelerinizi bu durumu göz önünde bulundurarak gerçekleþtirmenizi rica ederim. 
-
-Sizden görüþme sonrasýnda bir dönüþ gelmeyince diðer firmalarýn study case'leri için termin verdim 
-ancak sizin ilettiðiniz projenin termin tarihi de ayýn 30'u olduðu için süreler ve projeler çakýþtý
-
 ## Docker üzerinde uygulamaya eriþim linkleri
 	- API => http://localhost:5001/swagger
 	- REACT UI => http://localhost:3000
+
+## Uygulamayý Baþlatma
+	- 'docker-compose up'
+	- Komutunu ana dizin içerisinde çalýþtýrmanýz halinde API, MSSQL ve REACTJS projesi docker uzerinde çalýþýr hale gelecektir.
 
 ## Çözümünün bir parçasý olarak kullandýðýn teknik ve mimari seçimine nasýl karar verdin?
 
@@ -29,7 +28,6 @@ Projeyi geliþtirirken ihtiyaçlara göre aksiyon alarak bazý design patternleri uy
 			- Authorization: Bearer (JWT Token)
 		- HangFire
 			- RecurringJob (Belirli zaman aralýklarýyla çalýþan görevler)
-			- MSSQL
 		- NUnitTest
 			- Memory Storage
 				- Movie 
